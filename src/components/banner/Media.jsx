@@ -3,25 +3,25 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between justify-end float-right">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
+          <div className="flex gap-4 ">
+            {/* <span className="bannerIcon">
               <FaFacebookF />
             </span>
             <span className="bannerIcon">
               <FaTwitter />
-            </span>
+            </span> */}
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          {/* <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
@@ -37,7 +37,7 @@ const Media = () => {
             <span className="bannerIcon">
               <SiFigma />
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
   )

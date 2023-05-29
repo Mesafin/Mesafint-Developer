@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
+import "./project.css"
 
 const Projects = () => {
   return (
@@ -17,12 +18,14 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="APPLE PAGE CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
+          linkGit={"https://github.com/Mesafin/Apple-Page-developed-by-React"}
+          linkDeployed={"https://apple-page-using-react-app.netlify.app/"}
         />
-        <ProjectsCard
+        <ProjectsCard 
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"

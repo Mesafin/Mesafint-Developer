@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         // bodyColor: "#756a62",
         bodyColor: "#212529",
+        bgColor: "#ff014f",
         // lightText: "#EB6C02",
         // lightText: "#0DCAF0",
         lightText: "#c4cfde",

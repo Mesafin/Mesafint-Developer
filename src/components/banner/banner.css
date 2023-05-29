@@ -1,8 +1,8 @@
 .bg-image{
-    background-image: url("../../assets/images/triyansh-gill-zNoSn3mH1oY-unsplash.jpg");
+    background-image: url("../../assets/images/bg-images/bg5.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
-    margin-top: 15px;
+    background-size:cover;
+    /* margin-top: 15px; */
     /* opacity: 0.5; */
 }

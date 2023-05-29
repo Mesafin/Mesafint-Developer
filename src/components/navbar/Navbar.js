@@ -9,7 +9,7 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-12 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-15 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
         <img className="w-[30%]" src={logo} alt="logo" />
       </div>

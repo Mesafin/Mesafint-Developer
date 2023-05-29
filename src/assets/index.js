@@ -1,6 +1,6 @@
 import logo from "./images/bg-images/Screenshot.png";
 import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
+import projectOne from "./images/apple-react.jpeg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
 import testimonialOne from "./images/testmonial/testimonialOne.png";

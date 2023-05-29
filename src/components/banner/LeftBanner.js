@@ -4,32 +4,35 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Full Stack Developer."],
+      words: ["Full Stack Web Developer."],
       loop: true,
-      typeSpeed: 20,
+      typeSpeed: 10,
       deleteSpeed: 10,
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20 bgImage">
+    <div className="w-full flex flex-col gap-20 max-w-screen-xl mx-auto">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Mesafint zer</span>
+        <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4>
+        <h1 className="text-6xl font-bold text-white pt-20">
+          Hi, I'm 
+          <br />
+          <span className=" text-designColor capitalize">Mesafint M.</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+        <h2 className="text-4xl font-bold text-white ">
+          a passionate <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        <p className=" text-2xl font-light font-bodyFont leading-6 tracking-wide">
+          specializing in the MERN stack
         </p>
+        {/* <p className="text-base text-white font-bodyFont pt-20 leading-6 tracking-wide">
+          "I design and code beautifully simple web applications that deliver seamless user experiences and drive business success. With a deep passion for web development and a constant drive to stay up-to-date with the latest technologies, I am dedicated to creating innovative solutions that exceed client expectations"
+        </p> */}
       </div>
      {/* Media */}
      <Media />
