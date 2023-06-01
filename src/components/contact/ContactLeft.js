@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import {myLogo} from "../../assets/index"
+
 
 const ContactLeft = () => {
   return (
@@ -15,9 +17,9 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
-        <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        <img className="w-32 ml-10 rounded" src= { myLogo } alt="logo" />
+        <p className="text-base text-3xl text-white">
+          Get in touch for Web devlopment services
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+251922710277</span>

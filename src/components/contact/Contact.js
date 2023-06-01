@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
-import emailjs from "emailjs-com"
+import emailjs from "emailjs-com";
+
 
 const Contact = () => {
   const [username, setUsername] = useState("");

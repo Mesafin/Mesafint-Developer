@@ -1,0 +1,8 @@
+.AboutBg-image{
+    background-image: url("../../assets/images/bg-images/bg-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* margin-top: 15px; */
+    /* opacity: 0.5; */
+}
