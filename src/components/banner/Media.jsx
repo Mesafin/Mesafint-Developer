@@ -33,7 +33,7 @@ const Media = () => {
             <span className="bannerIcon">
               <Link
                 activeClass="active"
-                to={navLinksdata[2].link}
+                to={navLinksdata[3].link}
                 spy={true}
                 smooth={true}
                 offset={-70}

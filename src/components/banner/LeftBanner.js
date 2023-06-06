@@ -4,20 +4,20 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Full Stack Web Developer."],
+      words: ["Full Stack Web Developer.", " React Developer.", "UI/UX Designer"],
       loop: true,
-      typeSpeed: 10,
-      deleteSpeed: 10,
+      typeSpeed: 15,
+      deleteSpeed: 15,
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full flex flex-col gap-20 max-w-screen-xl mx-auto">
-      <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4>
-        <h1 className="text-4xl font-bold text-white pt-10 pb-10">
-          Hello, I'm 
+    <div className="w-full flex flex-col gap-20 max-w-screen-xl ">
+      <div className="flex flex-col gap-5 ml-10">
+        {/* <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4> */}
+        <h1 className="text-4xl font-bold text-white pt-20 ">
+          Hi, I'm 
           <br />
-          <span className="text-6xl text-designColor capitalize">Mesafint Minwagaw</span>
+          <span className="text-6xl text-designColor capitalize"> Mesafint M.</span>
         </h1>
         <h2 className="text-4xl font-bold text-white h-[110px] ">
           a passionate <span>{text}</span>

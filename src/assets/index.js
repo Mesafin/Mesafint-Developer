@@ -6,7 +6,7 @@ import projectThree from "./images/projects/netflix.jpg";
 import projectFour from "./images/projects/evangadi.png";
 import projectFive from "./images/projects/zoom.png";
 import projectSix  from "./images/projects/apple-bootstrap.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
+import testimonialOne from "./images/testmonial/download.jpeg";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";

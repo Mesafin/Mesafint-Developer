@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
+import SocialLinks from "./components/socialLinks/SocialLinks";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Features />
         <Projects />
-        <Resume />
-        <Testimonial />
+        {/* <Resume />
+        <Testimonial /> */}
         <Contact />
+        <SocialLinks />
       </div>
         <Footer />
  </div>

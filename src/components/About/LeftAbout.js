@@ -11,8 +11,8 @@ const LeftBanner = () => {
     //   delaySpeed: 2000,
     // });
   return (
-    <div className="w-full flex flex-col gap-20 max-w-screen-xl mx-auto">
-      <div className="flex flex-col gap-5">
+    <div className="w-full ml-10 flex flex-col gap-20 max-w-screen-xl mx-auto pl-20">
+      <div className="flex flex-col gap-5 ">
         {/* <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4>
         <h1 className="text-4xl font-bold text-white pt-10 pb-10">
           Hello, I'm 
@@ -30,7 +30,8 @@ const LeftBanner = () => {
         {/* <p className=" text-2xl font-light font-bodyFont leading-6 tracking-wide">
           specializing in the MERN stack
         </p> */}
-        <p className="text-base text-white w-[60%] text-center font-bodyFont pt-20 leading-6 tracking-wide">
+        <h1 className='text-3xl text-resumetext font-bold font-titleFont' >About Me</h1>
+        <p className="  w-[60%] text-center font-bodyFont  pt-10 leading-6 tracking-wide">
           "I design and code beautifully simple web applications that deliver seamless user experiences and drive business success. With a deep passion for web development and a constant drive to stay up-to-date with the latest technologies, I am dedicated to creating innovative solutions that exceed client expectations"
         </p>
       </div>

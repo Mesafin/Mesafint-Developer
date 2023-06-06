@@ -107,12 +107,12 @@ const Testimonial = () => {
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                  {/* <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Bound - Trolola
-                  </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  </p> */}
+                  <h3 className="text-2xl font-bold"> John Moah</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                     Web Developer at KISHAZ Company.
                   </p>
                 </div>
               </div>
@@ -122,10 +122,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                         Educational Website .
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - January 1, 2013 - March 30, 2023 
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -137,11 +137,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    "Working with Mesafint Minwagaw has been an absolute pleasure. His expertise in React and full stack development is truly remarkable. He have a deep understanding of the React ecosystem and consistently deliver high-quality code. His attention to detail and problem-solving skills have been invaluable in My web development projects. I highly recommend Mesafint Minwagaw for any React-based development work." 
                   </p>
                 </div>
               </div>
@@ -188,11 +184,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    "I had the pleasure of collaborating with Mesafint Minwagaw on a complex web application project. Their strong command over React and full stack development was evident from the start. Mesafint Minwagaw demonstrated exceptional coding skills, ensuring clean and efficient code throughout the project. They are an excellent communicator, always keeping the team updated on progress and addressing any concerns promptly. Mesafint Minwagaw is a reliable and talented developer who consistently delivers exceptional results." - Jane Doe, Product Manager at XYZ Inc
                   </p>
                 </div>
               </div>
@@ -239,11 +231,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    "I had the opportunity to hire Mesafint Minwagaw as a React developer, and I couldn't be happier with their contributions to our team. Their deep knowledge of React, coupled with their full stack expertise, allowed us to develop robust and scalable web applications. Mesafint Minwagaw consistently delivered high-quality code on time, showcasing their strong problem-solving skills. Their dedication and passion for web development are truly commendable. I highly recommend Mesafint Minwagaw for any React-based projects." - Mark Thompson, CEO of Acme Web Solutions.
                   </p>
                 </div>
               </div>

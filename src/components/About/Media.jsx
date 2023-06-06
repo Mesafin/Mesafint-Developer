@@ -4,17 +4,17 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { FaReact, FaBootstrap, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { Link } from "react-scroll";
 import { navLinksdata } from '../../constants/index.js';
-
+import resume  from "../../assets/resume/mesafintMinwagaw.pdf"
 
 const Media = () => {
   return (
-    <div className="flex  justify-start ">
+    <div className="flex  justify-start  ">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          {/* <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
-          </h2>
+          </h2> */}
           <div className="flex gap-4 ">
-            <span className="bannerIcon">
+            {/* <span className="bannerIcon">
               <FaFacebookF />
             </span>
             <span className="bannerIcon">
@@ -22,7 +22,8 @@ const Media = () => {
             </span>
             <span className="bannerIcon">
               <FaLinkedinIn />
-            </span>
+            </span> */}
+            <a href={resume} blank download className=" text-3xl text-resumetext font-bold font-titleFont border-b border-b-blue" >Download Resume</a>
           </div>
         </div>
       </div>

@@ -23,9 +23,10 @@ module.exports = {
         // bgColor: "#FF8500",
         // lightText: "#EB6C02",
         // lightText: "#0DCAF0",
+        resumetext: "#fd562a",
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        // designColor: "#FF8500",
+        // designColor: "#fd562a",
         designColor: "#ff014f",
       },
       bgImage: {

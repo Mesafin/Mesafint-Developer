@@ -10,7 +10,7 @@ const Banner = () => {
     >
       
       <LeftAbout />
-     {/* <RightAbout /> */}
+     <RightAbout />
     </section>
   );
 }

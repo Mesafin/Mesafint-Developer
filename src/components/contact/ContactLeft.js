@@ -12,12 +12,14 @@ const ContactLeft = () => {
         src={contactImg}
         alt="contactImg"
       />
+      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="mesafint-minwagaw23" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://et.linkedin.com/in/mesafint-minwagaw23?trk=profile-badge">Mesafint Minwagaw</a></div>
+              
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Mesafint Minwagaw</h3>
+        {/* <h3 className="text-3xl font-bold text-white">Mesafint Minwagaw</h3> */}
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
-        <img className="w-32 ml-10 rounded" src= { myLogo } alt="logo" />
+        <img className="w-32 ml-10 rounded-full" src= { myLogo } alt="logo" />
         <p className="text-base text-3xl text-white">
           Get in touch for Web devlopment services
         </p>

@@ -43,7 +43,7 @@ const Projects = () => {
           des="Experience seamless video conferencing with this React clone of Zoom, showcasing my ability to develop real-time communication applications using WebRTC."
           src={projectFive}
           linkGit="https://github.com/Mesafin/zoomClone"
-          linkDeployed="https://apple-page-using-react-app.netlify.app/"
+          linkDeployed="https://zoomapp.herokuapp.com/a93c1641-f86f-45a7-94a7-777b180d63ea"
         />
         <ProjectsCard
           title="Apple Page Clone using JavaScript"
