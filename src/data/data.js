@@ -11,13 +11,13 @@ export const featuresData = [
     id: 1,
     icon: <SiJavascript />,
     title: "Web Development",
-    des: "From conceptualization to deployment, I bring ideas to life using a wide range of coding and programming languages such as HTML, CSS, JavaScript, Media Query, and React. Your website will be built from the ground up with clean and efficient code, ensuring optimal performance and functionality.",
+    des: "From conceptualization to deployment, I bring ideas to life using a wide range of coding and programming languages. Your website will be built from the ground up with clean and efficient code, ensuring optimal performance and functionality.",
   },
   {
     id: 2,
     icon: <AiOutlineMobile />,
     title: "fully responsive ",
-    des: "By implementing effective SEO strategies, I help your website rank higher in search engine results, driving organic traffic and increasing visibility to potential customers. From keyword research to on-page optimization, your website will be optimized to reach its target audience and achieve better search engine rankings.",
+    des: "Delivering seamless user experiences across all devices. Your website will adapt and look stunning on every screen size, ensuring maximum engagement and accessibility. I design my websites for every screen size available and I make sure it looks great on every device.",
   },
   {
     id: 3,

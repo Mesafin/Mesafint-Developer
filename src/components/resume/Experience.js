@@ -7,60 +7,42 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+        <div className=" lgl:pt-5 font-titleFont flex flex-col gap-4">
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-1 lgl:mt-14 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Full Stack Web Developer Intern,  Dec 2023 - May 2023 "
+            subTitle="Miracle IT Consulting, Oakville."
+            result="6 month"
+            des="Collaborated with a team of developers to build and maintain responsive web applications.
+                Assisted in front-end development tasks, utilizing HTML, CSS, and JavaScript to create visually appealing and interactive user interfaces.
+                Gained experience in implementing front-end frameworks like React to enhance the user experience and improve overall site performance.
+                Assisted in back-end development using Node.js and PHP to build robust and scalable server-side systems.
+                Worked with databases such as MySQL to manage and store data efficiently.
+                Participated in Agile development practices, including daily stand-ups and code reviews.
+                Assisted in testing and debugging to identify and resolve issues, ensuring high-quality code.
+                Demonstrated strong teamwork and communication skills while collaborating with colleagues and stakeholders."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Freelance Front End Web Developer"
+            subTitle="Via Upwork"
+            des="Collaborated directly with clients to understand their requirements and deliver customized web solutions. Developed responsive and visually appealing websites using HTML, CSS, and JavaScript. Implemented front-end frameworks Bootstrap and React to enhance the user interface and improve user experience.Communicated effectively with clients to address their needs, provide progress updates, and deliver projects on time. Managed multiple projects simultaneously, demonstrating strong organizational and time management skills. Leveraged problem-solving abilities to troubleshoot and resolve technical issues as they arose. Continuously improved skills and expanded knowledge base to stay up-to-date with industry trends and technologies. "
+            result="Jan 2023 - Present"
           />
+          
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Production Plan and Control Engineer"
+            subTitle="AMIMTDE kombolcha, Ethiopia"
+            des=" Planned and Controlled 10 different production Projects. Managed 6 Projects collaborated with the Project Executive team. Collaborated with peers to estimate the cost of the project before implementation.  Changed way of Manufacturing by Selective Production Method to minimize item production time. Skillfully Empowered 60 technicians to operate and generate CNC Codes.    "
+            result="September 2019 - Jan 2023"
           />
-        </div>
-      </div>
-      <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+
         </div>
       </div>
+  
     </motion.div>
   );
 };

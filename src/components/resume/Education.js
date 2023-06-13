@@ -11,36 +11,37 @@ const Education = () => {
     >
       {/* part one */}
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+        <div className=" lgl:pt-5 font-titleFont flex flex-col gap-4">
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-1 lgl:mt-14 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Certificate in Full stack web development "
+            subTitle="Evangadi Networks"
+            des="It provided me a comprehensive training in front-end and back-end web development, covering HTML, CSS, JavaScript, Node.js, React, Bootstrap, Node.js, Express, and MySql. It also gave me skills in WordPress, Shopify, Bash Scripting, GitHub, NPM, FTP Clients, and Photoshop. Gain expertise in building dynamic web applications, designing user interfaces, implementing functionality, managing databases, and deploying applications.."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="BSc in Mechanical Engineering"
+            subTitle="University of Gondar, Ethiopia"
+            des="It provided me a comprehensive training for diverse roles in the manufacturing industry. Gain expertise in designing, analyzing, and optimizing mechanical systems. It also gave me skills on designing softwares Solidworks, Mastercam, FastCam, AutoCad, and Catia. "
+          />
+          
+          <ResumeCard
+            title="Certificate in CNC lathe and milling machine operation and tool programming"
+            subTitle="Kombolcha Polytechnic College Satellite Campus, Ethiopia"
+            des="It provided me the specialized training in operating and programming CNC machines for precise lathe and milling operations. Gain hands-on experience in setup, tool selection, and programming to pursue careers in precision manufacturing industries."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Certificate in Virtual Assisting Program"
+            subTitle="African Leadership Group (ALX) "
+            des="This program provided me a comprehensive training on various aspects of virtual assisting, including effective communication, project management, administrative tasks, and digital tools. Also It gaves me how to support businesses remotely, manage schedules, and handle client inquiries."
           />
         </div>
       </div>
       {/* part Two */}
 
-      <div>
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">Skills</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -63,7 +64,7 @@ const Education = () => {
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

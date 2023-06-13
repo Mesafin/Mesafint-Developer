@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Full Stack Web Developer.", " React Developer.", "UI/UX Designer"],
+      words: ["Full Stack Web Developer.", "Focused on React."],
       loop: true,
       typeSpeed: 15,
       deleteSpeed: 15,
@@ -12,15 +12,15 @@ const LeftBanner = () => {
     });
   return (
     <div className="w-full flex flex-col gap-20 max-w-screen-xl ">
-      <div className="flex flex-col gap-5 ml-10">
+      <div className="flex flex-col gap-5 sm:ml-0 md:ml-5 lg:ml-10">
         {/* <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4> */}
-        <h1 className="text-4xl font-bold text-white pt-20 ">
+        <h1 className="text-4xl font-bold text-white pt-40 ">
           Hi, I'm 
-          <br />
+          
           <span className="text-6xl text-designColor capitalize"> Mesafint M.</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white h-[110px] ">
-          a passionate <span>{text}</span>
+        <h2 className="text-4xl font-bold text-white h-[80px] ">
+          a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -28,7 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className=" text-2xl font-light font-bodyFont leading-6 tracking-wide">
-          specializing in the MERN stack
+          {/* specializing in the MERN stack */}
         </p>
         {/* <p className="text-base text-white font-bodyFont pt-20 leading-6 tracking-wide">
           "I design and code beautifully simple web applications that deliver seamless user experiences and drive business success. With a deep passion for web development and a constant drive to stay up-to-date with the latest technologies, I am dedicated to creating innovative solutions that exceed client expectations"

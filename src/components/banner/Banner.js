@@ -1,6 +1,5 @@
 import React from 'react'
 import LeftBanner from './LeftBanner';
-import RightBanner from './RightBanner';
 import "./banner.css"
 const Banner = () => {
   return (
@@ -10,7 +9,7 @@ const Banner = () => {
     >
       
       <LeftBanner />
-     {/* <RightBanner /> */}
+    
     </section>
   );
 }

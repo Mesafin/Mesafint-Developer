@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section
       id="About"
-      className="AboutBg-image w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center border-b-[1px] font-titleFont border-b-black"
+      className="AboutBg-image w-[80%] pt-10 pb-20 flex flex-col gap-30 xl:gap-20 lgl:flex-row items-center mx-auto border-b-[1px] font-titleFont border-b-black"
     >
       
       <LeftAbout />

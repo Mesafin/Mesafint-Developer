@@ -5,17 +5,19 @@ import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {  cropped } from "../../assets/index"
 import { navLinksdata } from '../../constants';
-
+import { logo } from "../../assets/index"
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  
+  const [showMenu, setShowMenu] = useState(false)
+  
   return (
     <div className="w-full h-15 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img className="w-[10%] ml-20 rounded-full" src={cropped} alt="logo" />
+        <img className="w-[50%] ml-20 rounded-full" src={logo} alt="logo" />
       </div>
       <div>
-        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-10">
+        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-4">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"

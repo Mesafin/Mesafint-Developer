@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { FaReact, FaBootstrap, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { Link } from "react-scroll";
@@ -9,27 +8,10 @@ import { navLinksdata } from '../../constants/index.js';
 const Media = () => {
   return (
     <div className="flex  justify-end ">
-        {/* <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
+          <div className="flex gap-4 mt-8 ">
+            <h2 className=" uppercase text-xl font-titleFont my-4 mr-10">
+            TECH STACK
           </h2>
-          <div className="flex gap-4 ">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </div>
-        </div> */}
-        <div  >
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
-          </h2>
-          <div className="flex gap-4">
             <span className="bannerIcon">
               <Link
                 activeClass="active"
@@ -65,6 +47,19 @@ const Media = () => {
                 offset={-70}
                 duration={500}
               >
+                <SiTailwindcss/>
+              </Link>
+              
+            </span>
+            <span className="bannerIcon">
+              <Link
+                activeClass="active"
+                to={navLinksdata[2].link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <FaCss3 />
               </Link>
             </span>
@@ -81,7 +76,7 @@ const Media = () => {
               </Link>
             </span>
           </div>
-        </div>
+        
       </div>
   )
 }

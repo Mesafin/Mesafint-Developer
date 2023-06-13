@@ -6,21 +6,22 @@ import projectThree from "./images/projects/netflix.jpg";
 import projectFour from "./images/projects/evangadi.png";
 import projectFive from "./images/projects/zoom.png";
 import projectSix  from "./images/projects/apple-bootstrap.jpeg";
-import testimonialOne from "./images/testmonial/download.jpeg";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
+import testimonialOne from "./images/testmonial/testimonialOne.jpg";
+import testimonialTwo from "./images/testmonial/testimonialTwo.jpg";
+import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import nameLogo from "./images/bg-images/myLogo.jpg"
-import bgImage from "./images/bg-images/pexels-hasan-albari-1229861-scaled.jpg"
-import personalImg from "./images/personalImg.png"
+import bgImage from "./images/bg-images/about-bg.png"
 import cropped from "./images/cropped.png"
+import logo from "./images/mesafint-nameslook.jpg"
 
 export {
+  logo,
   cropped,
   bgImage,
   nameLogo,
   myLogo,
-  personalImg,
   bannerImg,
   projectOne,
   projectTwo,
@@ -30,6 +31,7 @@ export {
   projectSix,
   testimonialOne,
   testimonialTwo,
+  testimonialThree,
   quote,
   contactImg,
 };

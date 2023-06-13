@@ -9,24 +9,9 @@ import resume  from "../../assets/resume/mesafintMinwagaw.pdf"
 const Media = () => {
   return (
     <div className="flex  justify-start  ">
-        <div>
-          {/* <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
-          </h2> */}
-          <div className="flex gap-4 ">
-            {/* <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span> */}
-            <a href={resume} blank download className=" text-3xl text-resumetext font-bold font-titleFont border-b border-b-blue" >Download Resume</a>
-          </div>
+            <a href={resume} blank download className=" text-base lg:text-3xl text-orange-300 font-bold font-titleFont border-b border-b-blue" >Download Resume</a> 
         </div>
-      </div>
+
   )
 }
 

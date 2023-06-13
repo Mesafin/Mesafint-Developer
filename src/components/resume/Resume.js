@@ -11,12 +11,12 @@ const Resume = () => {
    const [experienceData, setExperienceData] = useState(false);
    const [achievementData, setAchievementData] = useState(false);
   return (
-    <section id="resume" className="w-full pt-10 border-b-[1px] border-b-black">
+    <section id="Resume" className="w-full border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="" des="My Resume" />
+        <Title title="" des="skills" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3">
           <li
             onClick={() =>
               setEducationData(true) &
@@ -60,7 +60,7 @@ const Resume = () => {
           >
             Experience
           </li>
-          <li
+          {/* <li
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
@@ -74,12 +74,12 @@ const Resume = () => {
             } resumeLi`}
           >
             Achievements
-          </li>
+          </li> */}
         </ul>
       </div>
       {educationData && <Education />}
       {skillData && <Skills />}
-      {achievementData && <Achievement />}
+      {/* {achievementData && <Achievement />} */}
       {experienceData && <Experience />}
  
     </section>
