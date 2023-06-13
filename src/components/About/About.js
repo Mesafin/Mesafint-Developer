@@ -1,18 +1,17 @@
 import React from 'react'
 import LeftAbout from './LeftAbout';
 import RightAbout from './RightAbout';
-import "./About.css"
-const Banner = () => {
+
+const About = () => {
   return (
     <section
       id="About"
-      className="AboutBg-image w-[80%] pt-10 pb-20 flex flex-col gap-30 xl:gap-20 lgl:flex-row items-center mx-auto border-b-[1px] font-titleFont border-b-black"
+      className="w-full py-6 lg:px-20 flex flex-col gap-30 xl:gap-30 lgl:flex-row items-center border-b-[1px]  font-titleFont border-b-blue-200"
     >
-      
-      <LeftAbout />
+     <LeftAbout />
      <RightAbout />
     </section>
   );
 }
 
-export default Banner
+export default About

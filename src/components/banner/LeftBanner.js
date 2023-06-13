@@ -13,7 +13,7 @@ const LeftBanner = () => {
   return (
     <div className="w-full flex flex-col gap-20 max-w-screen-xl ">
       <div className="flex flex-col gap-5 sm:ml-0 md:ml-5 lg:ml-10">
-        {/* <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4> */}
+        <h4 className=" text-lg font-normal pt-15 justify-end ">WELCOME TO MY WORLD</h4>
         <h1 className="text-4xl font-bold text-white pt-40 ">
           Hi, I'm 
           

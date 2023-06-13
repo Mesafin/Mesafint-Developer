@@ -5,7 +5,7 @@ import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
   return (
-    <section id="projects" className="w-full border-b border-blue">
+    <section id="projects" className="w-full border-b-[1px] border-black">
       <div className="flex justify-center items-center text-center">
         <Title title="" des="My Projects" />
       </div>
