@@ -7,9 +7,9 @@ import { navLinksdata } from '../../constants/index.js';
 
 const Media = () => {
   return (
-    <div className="flex  justify-end ">
+    <div className=" flex  justify-end pr-10">
           <div className="flex gap-4 mt-8 ">
-            <h2 className=" uppercase text-xl font-titleFont my-4 mr-10">
+            <h2 className=" uppercase text-xl font-titleFont my-4 mr-5">
             TECH STACK
           </h2>
             <span className="bannerIcon">

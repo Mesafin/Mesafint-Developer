@@ -8,13 +8,13 @@ const Skills = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      <div className="w-full ml-20">
-        <div className="py-10 font-titleFont flex flex-col gap-4">
+      <div className="w-full px-10 lgl:pl-20">
+        {/* <div className="py-10 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Front End</h2>
-        </div>
+        </div> */}
 
           {/* skills colomn */}
-        <div className=' grid grid-cols-2 md:grid-cols-4 sm:gap-10 md:gap-5 lg:gap-60 mt-20'  >
+        <div className=' grid grid-cols-2 md:grid-cols-4 sm:gap-0 md:gap-5 lg:gap-60 mt-20'  >
             {/* column one */}
           <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">

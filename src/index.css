@@ -32,6 +32,8 @@ body {
     display: none;
 }
 
+
+/* loading css */
 .loading-container {
     display: flex;
     flex-direction: column;
@@ -64,4 +66,26 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+/* vertical scrollbar css */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #201e1d;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #cd3b06;
 }

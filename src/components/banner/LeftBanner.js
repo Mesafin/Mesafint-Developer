@@ -35,7 +35,10 @@ const LeftBanner = () => {
         </p> */}
       </div>
      {/* Media */}
-     <Media />
+     <div className='hidden sml:block' >
+        <Media />
+     </div>
+     
     </div>
   );
 }

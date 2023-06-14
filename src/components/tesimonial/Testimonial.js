@@ -90,7 +90,7 @@ const Testimonial = () => {
   return (
     <section
       id="testimonial"
-      className="w-full my-20 border-b-[1px] border-b-black"
+      className="w-full my-20 "
     >
       <div className="flex justify-center items-center text-center">
         <Title title="WHAT CLIENTS SAY" des="Testimonial" />
@@ -148,7 +148,7 @@ const Testimonial = () => {
           {/* ================ Slider Two ================== */}
           <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
-              <div className="w-[50%] lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-52 w-52 rounded-full mx-auto object-fill "
                   src={testimonialThree}

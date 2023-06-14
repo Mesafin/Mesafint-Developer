@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <section id="Resume" className="w-full ">
       <div className="flex justify-center items-center text-center">
-        <Title title="" des="skills" />
+        <Title title="" des="Resume" />
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3">

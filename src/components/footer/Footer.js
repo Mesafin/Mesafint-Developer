@@ -10,7 +10,7 @@ const Footer = () => {
       
       <div className="w-full h-full items-center flex flex-col gap-8">
 
-        <ul className="flex flex-row gap-4 font-titleFont font-medium py-6 overflow-hidden">
+        <ul className="flex flex-col lgl:flex-row  gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Home
@@ -52,6 +52,8 @@ const Footer = () => {
       </p>
     </div>
     </div>
+
+
   );
 }
 
