@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FiPhone, FiMail } from "react-icons/fi";
 import {  cropped } from "../../assets/index"
 import { navLinksdata } from '../../constants';
 import { logo } from "../../assets/index"
@@ -76,16 +77,19 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+          <span className="bannerIcon">
+            <a href ="https://github.com/Mesafin" target='_blank'><FaGithub /></a>
+          </span>
+          <span className="bannerIcon">
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="mesafint-minwagaw23" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://et.linkedin.com/in/mesafint-minwagaw23?trk=profile-badge" target='_blank' ><FaLinkedinIn /></a></div>
+          </span>
+          <span className="bannerIcon">
+            <a href="tel:0922710277"><FiPhone /></a>
+          </span>
+          <span className="bannerIcon">
+            <a href="Mailto:mesafintminwagaw@gmail.com">< FiMail/></a>
+          </span>
+        </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
