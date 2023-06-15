@@ -24,7 +24,7 @@ const LeftBanner = () => {
             
           </p>
           <p className=" w-full font-bodyFont my-5">
-            Addis Ababa, ETHIOPIA
+            Kombolcha, ETHIOPIA
           </p>
           {/* <div className=" w-full flex gap-6 text-blue-500 items-end">
             <a href="https://www.linkedin.com/in/mesafint-minwagaw23/" target='_blank'><FaLinkedinIn/></a>

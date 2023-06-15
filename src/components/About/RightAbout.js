@@ -1,6 +1,6 @@
 import React from 'react'
 import { bgImage } from "../../assets/index.js";
-import resume  from "../../assets/resume/mesafintMinwagaw.pdf"
+import resume  from "../../assets/resume/MyResume.pdf"
 
 
 const RightBanner = () => {
