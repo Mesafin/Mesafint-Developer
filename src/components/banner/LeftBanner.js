@@ -17,10 +17,10 @@ const LeftBanner = () => {
         <h1 className="text-4xl font-bold text-white pt-40 ">
           Hi, I'm 
           
-          <span className="text-6xl text-designColor capitalize"> Mesafint M.</span>
+          <span className="text-5xl text-designColor capitalize"> Mesafint M.</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white h-[80px] ">
-          a <span>{text}</span>
+        <h2 className="text-3xl font-bold text-white h-[80px] ">
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"

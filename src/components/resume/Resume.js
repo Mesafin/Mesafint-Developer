@@ -9,7 +9,6 @@ const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
    const [experienceData, setExperienceData] = useState(false);
-   const [achievementData, setAchievementData] = useState(false);
   return (
     <section id="Resume" className="w-full ">
       <div className="flex justify-center items-center text-center">
@@ -19,25 +18,9 @@ const Resume = () => {
         <ul className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3">
           <li
             onClick={() =>
-              setEducationData(true) &
-              setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(false)
-            }
-            className={`${
-              educationData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
-          >
-            Education
-          </li>
-          <li
-            onClick={() =>
               setEducationData(false) &
               setSkillData(true) &
-              setExperienceData(false) &
-              setAchievementData(false)
+              setExperienceData(false) 
             }
             className={`${
               skillData ? "border-designColor rounded-lg" : "border-transparent"
@@ -47,10 +30,24 @@ const Resume = () => {
           </li>
           <li
             onClick={() =>
+              setEducationData(true) &
+              setSkillData(false) &
+              setExperienceData(false) 
+            }
+            className={`${
+              educationData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Education
+          </li>
+          
+          <li
+            onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
-              setExperienceData(true) &
-              setAchievementData(false)
+              setExperienceData(true) 
             }
             className={`${
               experienceData
@@ -60,26 +57,10 @@ const Resume = () => {
           >
             Experience
           </li>
-          {/* <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(true)
-            }
-            className={`${
-              achievementData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
-          >
-            Achievements
-          </li> */}
         </ul>
       </div>
-      {educationData && <Education />}
       {skillData && <Skills />}
-      {/* {achievementData && <Achievement />} */}
+      {educationData && <Education />}
       {experienceData && <Experience />}
  
     </section>
