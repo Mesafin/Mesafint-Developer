@@ -1,6 +1,4 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {myLogo} from "../../assets/index"
 import "./footer.css"
 
 const Footer = () => {
@@ -8,7 +6,7 @@ const Footer = () => {
     
     <div className="footerBg w-full flex-col ">
       
-      <div className="w-full h-full items-center flex flex-col gap-8">
+      {/* <div className="w-full h-full items-center flex flex-col gap-8">
 
         <ul className="flex flex-col lgl:flex-row  gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
@@ -42,7 +40,7 @@ const Footer = () => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
      
 
     

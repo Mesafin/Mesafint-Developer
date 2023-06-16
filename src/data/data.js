@@ -23,7 +23,7 @@ export const featuresData = [
     id: 3,
     icon: <SiGoogleanalytics />,
     title: "SEO Optimization",
-    des: "By implementing effective SEO strategies, I help your website rank higher in search engine results, driving organic traffic and increasing visibility to potential customers. From keyword research to on-page optimization, your website will be optimized to reach its target audience and achieve better search engine rankings.",
+    des: "By implementing effective SEO strategies, I help your website rank higher in search engine results and increasing visibility to potential customers. From keyword research to on-page optimization, your website will be optimized to reach its target audience and achieve better search engine rankings.",
   },
   {
     id: 4,

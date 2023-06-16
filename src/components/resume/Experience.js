@@ -14,9 +14,9 @@ const Experience = () => {
         </div>
         <div className="mt-1 lgl:mt-14 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Full Stack Web Developer Intern,  Dec 2023 - May 2023 "
+            title="Full Stack Web Developer | Remote "
             subTitle="Miracle IT Consulting, Oakville."
-            result="6 month"
+            result="Sep 2019 - Dec 2022"
             des="Collaborated with a team of developers to build and maintain responsive web applications.
                 Assisted in front-end development tasks, utilizing HTML, CSS, and JavaScript to create visually appealing and interactive user interfaces.
                 Gained experience in implementing front-end frameworks like React to enhance the user experience and improve overall site performance.
@@ -30,7 +30,7 @@ const Experience = () => {
             title="Freelance Front End Web Developer"
             subTitle="Via Upwork"
             des="Collaborated directly with clients to understand their requirements and deliver customized web solutions. Developed responsive and visually appealing websites using HTML, CSS, and JavaScript. Implemented front-end frameworks Bootstrap and React to enhance the user interface and improve user experience.Communicated effectively with clients to address their needs, provide progress updates, and deliver projects on time. Managed multiple projects simultaneously, demonstrating strong organizational and time management skills. Leveraged problem-solving abilities to troubleshoot and resolve technical issues as they arose. Continuously improved skills and expanded knowledge base to stay up-to-date with industry trends and technologies. "
-            result="Jan 2023 - Present"
+            result="Jan 2021 - Present"
           />
           
           <ResumeCard
