@@ -5,8 +5,8 @@ import { FiPhone, FiMail } from "react-icons/fi";
 const LeftBanner = () => {
     
   return (
-    <div className="w-full flex flex-col gap-20 max-w-screen-xl px-20">
-      <div className="flex flex-col gap-6 text-justify pb-20 ">
+    <div className="w-full flex flex-col gap-20 max-w-screen-xl px-4 sm:px-14 md:text-justify">
+      <div className="flex flex-col gap-6  pb-20 ">
       
         <h1 className='text-3xl text-resumetext font-bold font-titleFont pt-5' >About Me</h1>
           <p className="  w-full font-bodyFont leading-6 tracking-wide">

@@ -20,7 +20,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-white pb-10 italic">
-          Glet's work together
+          Let's work together
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+251922710277</span>
