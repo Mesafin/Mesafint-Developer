@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mesafint.tech/static/css/main.e019b635.css",
-    "main.js": "/Mesafint.tech/static/js/main.657fa1f1.js",
+    "main.css": "/Mesafint.tech/static/css/main.a2ae98f4.css",
+    "main.js": "/Mesafint.tech/static/js/main.cda68eeb.js",
     "static/media/bg5.jpg": "/Mesafint.tech/static/media/bg5.37f9618ac10afa3bfcdd.jpg",
     "static/media/about-bg.png": "/Mesafint.tech/static/media/about-bg.2374bbab20dcdef2ae67.png",
     "static/media/cropped.png": "/Mesafint.tech/static/media/cropped.9abeeed9fa0bd6677d91.png",
@@ -18,11 +18,11 @@
     "static/media/apple-bootstrap.jpeg": "/Mesafint.tech/static/media/apple-bootstrap.9cfdccf5d299b5b16198.jpeg",
     "static/media/my-footer-bg-image2.jpg": "/Mesafint.tech/static/media/my-footer-bg-image2.642d9528d6cfba8c8dc6.jpg",
     "index.html": "/Mesafint.tech/index.html",
-    "main.e019b635.css.map": "/Mesafint.tech/static/css/main.e019b635.css.map",
-    "main.657fa1f1.js.map": "/Mesafint.tech/static/js/main.657fa1f1.js.map"
+    "main.a2ae98f4.css.map": "/Mesafint.tech/static/css/main.a2ae98f4.css.map",
+    "main.cda68eeb.js.map": "/Mesafint.tech/static/js/main.cda68eeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e019b635.css",
-    "static/js/main.657fa1f1.js"
+    "static/css/main.a2ae98f4.css",
+    "static/js/main.cda68eeb.js"
   ]
 }
