@@ -114,21 +114,6 @@ const Contact = () => {
                   type="email"
                 />
               </div>
-              {/* <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
-                  Subject
-                </p>
-                <input
-                  onChange={(e) => setSubject(e.target.value)}
-                  value={subject}
-                  name='subject'
-                  className={`${
-                    errMsg === "Plese give your Subject!" &&
-                    "outline-designColor border-none"
-                  } contactInput`}
-                  type="text"
-                />
-              </div> */}
               <div className="flex flex-col gap-4">
                 <p className="text-sm text-gray-400 uppercase tracking-wide">
                   Message

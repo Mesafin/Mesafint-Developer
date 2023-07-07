@@ -45,7 +45,7 @@ const Footer = () => {
 
     
     <div className="w-full">
-      <p className="text-center text-white text-base pb-5">
+      <p className="text-center text-white text-base py-5">
         © 2023. All rights reserved by Mesafint Minwagaw
       </p>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -51,6 +51,13 @@ const Projects = () => {
           src={projectSix}
           linkGit="https://github.com/Mesafin/Apple-page-using-Bootstrap"
           linkDeployed="https://apple-using-vanilla-js-and-bootstrap.netlify.app/"
+        />
+        <ProjectsCard
+          title="Resturant-landing-page"
+          des="Recreate my restaurant's landing page design, originally created in Figma, using CSS, HTML, and React. Showcase my expertise in front-end development, responsive web design, and implementation of Figma designs. Skills utilized: HTML🌐 CSS🎨 React⚛️ Figma🖌️"
+          src={projectSeven}
+          linkGit="https://github.com/Mesafin/Habesha-Bar"
+          linkDeployed="https://stunning-cat-f342e9.netlify.app/"
         />
       </div>
     </section>

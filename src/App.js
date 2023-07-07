@@ -38,7 +38,7 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Features />
         <Projects />
-        <Resume />
+        {/* <Resume /> */}
         <Testimonial />
         <Contact />
         <SocialLinks />

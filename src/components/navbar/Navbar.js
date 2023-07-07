@@ -6,7 +6,9 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiPhone, FiMail } from "react-icons/fi";
 import {  cropped } from "../../assets/index"
 import { navLinksdata } from '../../constants';
-import { logo } from "../../assets/index"
+import { logo } from "../../assets/index";
+import resume  from "../../assets/resume/myResume.pdf"
+
 
 const Navbar = () => {
   
@@ -36,6 +38,15 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <li className="w-full p-2 bg-designColor rounded-lg text-base text-gray-200 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+                  <a
+                    href={resume} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
+                </li>
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
@@ -71,6 +82,17 @@ const Navbar = () => {
                     </Link>
                   </li>
                 ))}
+
+                  <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+                  <a
+                    href={resume} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
+                </li>
+
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">

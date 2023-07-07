@@ -1,6 +1,6 @@
 import React from 'react'
 import { bgImage } from "../../assets/index.js";
-import resume  from "../../assets/resume/MyResume.pdf"
+import resume  from "../../assets/resume/myResume.pdf"
 
 
 const RightBanner = () => {
@@ -14,7 +14,6 @@ const RightBanner = () => {
       <div className="flex  justify-center mx-auto items-center  ">
             <a href={resume} target='_blank' download className="my-8 text-base lg:text-3xl text-resumetext font-bold font-titleFont border-b-[2px] border-b-resumetext" >Download Resume</a> 
         </div>
-      {/* <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div> */}
     </div>
   );
 }
