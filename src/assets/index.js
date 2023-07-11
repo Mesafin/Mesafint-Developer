@@ -16,6 +16,7 @@ import nameLogo from "./images/bg-images/myLogo.jpg"
 import bgImage from "./images/bg-images/about-bg.png"
 import cropped from "./images/cropped.png"
 import logo from "./images/mesafint-nameslook.jpg"
+import video from "./images/smoke.mp4"
 
 export {
   logo,
@@ -36,4 +37,5 @@ export {
   testimonialThree,
   quote,
   contactImg,
+  video
 };

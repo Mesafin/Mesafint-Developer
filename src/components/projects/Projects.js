@@ -5,6 +5,7 @@ import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
   return (
+
     <section id="projects" className="w-full border-b-[1px] border-black">
       <div className="flex justify-center items-center text-center">
         <Title title="" des="My Projects" />
@@ -38,13 +39,13 @@ const Projects = () => {
           linkGit="https://github.com/Mesafin/Evangadi-forum-FrontEnd"
           linkDeployed="https://95d4a41c.evangadi-forum-frontend-67r.pages.dev/"
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Zoom Clone"
           des="Experience seamless video conferencing with this React clone of Zoom, showcasing my ability to develop real-time communication applications using Node and React.React⚛️ Node🟢 Express🚂 Heroku🌐 Socket.io 🧦"
           src={projectFive}
           linkGit="https://github.com/Mesafin/zoomClone"
           linkDeployed="https://zoomapp.herokuapp.com/a93c1641-f86f-45a7-94a7-777b180d63ea"
-        />
+        /> */}
         <ProjectsCard
           title="Apple Page Clone using JavaScript"
           des="Recreate the classic Apple website design using vanilla JavaScript and Bootstrap, demonstrating my proficiency in front-end development and responsive web design. HTML🌐 CSS🎨 Bootstrap🅱️ JavaScript🚀 JQuery💡"
