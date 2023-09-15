@@ -1,11 +1,18 @@
-import React from 'react'
-import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import React from "react";
+import Title from "../layouts/Title";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectFive,
+  projectSix,
+  projectSeven,
+} from "../../assets/index";
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
-
     <section id="projects" className="w-full border-b-[1px] border-black">
       <div className="flex justify-center items-center text-center">
         <Title title="" des="My Projects" />
@@ -23,7 +30,7 @@ const Projects = () => {
           des="Explore a fully functional e-commerce website built with React, demonstrating my expertise in front-end development and integration with backend APIs. React⚛️ Firebase🔥 Stripe 💳 Axios 📡 "
           src={projectTwo}
           linkGit="https://github.com/Mesafin/Amazon-clone"
-          linkDeployed="https://react-c2bf5.web.app/"
+          linkDeployed="https://clone-10387.firebaseapp.com/"
         />
         <ProjectsCard
           title="Netflix Clone"
@@ -63,7 +70,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-
-export default Projects
+export default Projects;

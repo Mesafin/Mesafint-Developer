@@ -55,10 +55,7 @@ const Contact = () => {
     }
   };
   return (
-    <section
-      id="contact"
-      className="w-full  border-b-[1px] border-b-black"
-    >
+    <section id="contact" className="w-full  border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="CONTACT ME" des="LET'S BUILD SOMETHING GREAT TOGETHER" />
       </div>
@@ -66,7 +63,10 @@ const Contact = () => {
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div className=" lgl:w-[60%] h-full bg-gradient-to-b from-black to-gray-800 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
-            <form id="myForm" className="w-[80%] mx-auto flex flex-col gap-4 lgl:gap-6 lgl:py-5">
+            <form
+              id="myForm"
+              className="w-[80%] mx-auto flex flex-col gap-4 lgl:gap-6 lgl:py-5"
+            >
               <div className="w-full flex flex-col lgl:flex-row gap-10">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
@@ -74,7 +74,7 @@ const Contact = () => {
                   </p>
                   <input
                     onChange={(e) => setUsername(e.target.value)}
-                    name='username'
+                    name="username"
                     value={username}
                     className={`${
                       errMsg === "Username is required!" &&
@@ -90,7 +90,7 @@ const Contact = () => {
                   <input
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
-                    name='phone_number'
+                    name="phone_number"
                     className={`${
                       errMsg === "Phone number is required!" &&
                       "outline-designColor border-none"
@@ -106,7 +106,7 @@ const Contact = () => {
                 <input
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
-                  name='email'
+                  name="email"
                   className={`${
                     errMsg === "Please give your Email!" &&
                     "outline-designColor border-none"
@@ -121,9 +121,10 @@ const Contact = () => {
                 <textarea
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
-                  name='message'
+                  name="message"
                   className={`${
-                    errMsg === "Message is required!" && "outline-designColor border-none"
+                    errMsg === "Message is required!" &&
+                    "outline-designColor border-none"
                   } contactTextArea`}
                   cols="30"
                   rows="5"

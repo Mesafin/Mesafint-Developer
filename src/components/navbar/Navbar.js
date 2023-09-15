@@ -1,24 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiPhone, FiMail } from "react-icons/fi";
-import {  cropped } from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { cropped } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 import { logo } from "../../assets/index";
-import resume  from "../../assets/resume/myResume.pdf"
-
+import resume from "../../assets/resume/Resume.pdf";
 
 const Navbar = () => {
-  
-  const [showMenu, setShowMenu] = useState(false)
-  
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className="w-full h-15 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-      
-        <img className="w-[30%] md:ml-20 md:w-[50%] ml-10 rounded-full p-2" src={logo} alt="logo" />
+        <img
+          className="w-[30%] md:ml-20 md:w-[50%] ml-10 rounded-full p-2"
+          src={logo}
+          alt="logo"
+        />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-4">
@@ -39,15 +40,12 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+
           <li className="w-full p-2 bg-designColor rounded-lg text-base text-gray-200 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
-                  <a
-                    href={resume} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Resume
-                  </a>
-                </li>
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </li>
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
@@ -61,7 +59,10 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={cropped} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  "I design and code beautifully simple web applications that deliver seamless user experiences and drive business success. With a deep passion for web development and a constant drive to stay up-to-date with the latest technologies"
+                  "I design and code beautifully simple web applications that
+                  deliver seamless user experiences and drive business success.
+                  With a deep passion for web development and a constant drive
+                  to stay up-to-date with the latest technologies"
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -84,35 +85,52 @@ const Navbar = () => {
                   </li>
                 ))}
 
-                  <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
-                  <a
-                    href={resume} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+                  <a href={resume} target="_blank" rel="noopener noreferrer">
                     Resume
                   </a>
                 </li>
-
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a href ="https://github.com/Mesafin" target='_blank'><FaGithub /></a>
-          </span>
-          <span className="bannerIcon">
-            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="mesafint-minwagaw23" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://et.linkedin.com/in/mesafint-minwagaw23?trk=profile-badge" target='_blank' ><FaLinkedinIn /></a></div>
-          </span>
-          <span className="bannerIcon">
-            <a href="tel:0922710277"><FiPhone /></a>
-          </span>
-          <span className="bannerIcon">
-            <a href="Mailto:mesafintminwagaw@gmail.com">< FiMail/></a>
-          </span>
-        </div>
+                  <span className="bannerIcon">
+                    <a href="https://github.com/Mesafin" target="_blank">
+                      <FaGithub />
+                    </a>
+                  </span>
+                  <span className="bannerIcon">
+                    <div
+                      class="badge-base LI-profile-badge"
+                      data-locale="en_US"
+                      data-size="medium"
+                      data-theme="dark"
+                      data-type="VERTICAL"
+                      data-vanity="mesafint-minwagaw23"
+                      data-version="v1"
+                    >
+                      <a
+                        class="badge-base__link LI-simple-link"
+                        href="https://et.linkedin.com/in/mesafint-minwagaw23?trk=profile-badge"
+                        target="_blank"
+                      >
+                        <FaLinkedinIn />
+                      </a>
+                    </div>
+                  </span>
+                  <span className="bannerIcon">
+                    <a href="tel:0922710277">
+                      <FiPhone />
+                    </a>
+                  </span>
+                  <span className="bannerIcon">
+                    <a href="Mailto:mesafintminwagaw@gmail.com">
+                      <FiMail />
+                    </a>
+                  </span>
+                </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
@@ -126,6 +144,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
