@@ -7,7 +7,7 @@ import { FiPhone, FiMail } from "react-icons/fi";
 import { cropped } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import { logo } from "../../assets/index";
-import resume from "../../assets/resume/Resume.pdf";
+import resume from "../../assets/resume/new_resume.pdf";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
