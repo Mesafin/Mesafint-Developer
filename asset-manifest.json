@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Mesafint.tech/static/css/main.a2ae98f4.css",
-    "main.js": "/Mesafint.tech/static/js/main.f6b4820b.js",
+    "main.css": "/Mesafint.tech/static/css/main.9b58ed01.css",
+    "main.js": "/Mesafint.tech/static/js/main.3746fe37.js",
     "static/media/smoke.mp4": "/Mesafint.tech/static/media/smoke.19ccac52415a702bff98.mp4",
     "static/media/bg5.jpg": "/Mesafint.tech/static/media/bg5.37f9618ac10afa3bfcdd.jpg",
     "static/media/about-bg.png": "/Mesafint.tech/static/media/about-bg.2374bbab20dcdef2ae67.png",
     "static/media/steak.jpg": "/Mesafint.tech/static/media/steak.157b15351cbb7e76da8e.jpg",
     "static/media/cropped.png": "/Mesafint.tech/static/media/cropped.9abeeed9fa0bd6677d91.png",
-    "static/media/new_resume.pdf": "/Mesafint.tech/static/media/new_resume.ac05c475e4883ce75d95.pdf",
     "static/media/bg-3.png": "/Mesafint.tech/static/media/bg-3.bbd5ea1a5e406c8449d5.png",
     "static/media/testimonialThree.jpeg": "/Mesafint.tech/static/media/testimonialThree.869df75df635b7c7f0d4.jpeg",
     "static/media/amazon-2.jpg": "/Mesafint.tech/static/media/amazon-2.d20c4bbbc20a4d27a627.jpg",
@@ -20,11 +19,11 @@
     "static/media/apple-bootstrap.jpeg": "/Mesafint.tech/static/media/apple-bootstrap.9cfdccf5d299b5b16198.jpeg",
     "static/media/my-footer-bg-image2.jpg": "/Mesafint.tech/static/media/my-footer-bg-image2.642d9528d6cfba8c8dc6.jpg",
     "index.html": "/Mesafint.tech/index.html",
-    "main.a2ae98f4.css.map": "/Mesafint.tech/static/css/main.a2ae98f4.css.map",
-    "main.f6b4820b.js.map": "/Mesafint.tech/static/js/main.f6b4820b.js.map"
+    "main.9b58ed01.css.map": "/Mesafint.tech/static/css/main.9b58ed01.css.map",
+    "main.3746fe37.js.map": "/Mesafint.tech/static/js/main.3746fe37.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2ae98f4.css",
-    "static/js/main.f6b4820b.js"
+    "static/css/main.9b58ed01.css",
+    "static/js/main.3746fe37.js"
   ]
 }
