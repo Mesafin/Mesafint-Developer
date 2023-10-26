@@ -1,6 +1,6 @@
 import React from 'react'
 import { bgImage } from "../../assets/index.js";
-import resume  from "../../assets/resume/myResume.pdf"
+import resume  from "../../assets/resume/new_resume.pdf"
 
 
 const RightBanner = () => {
@@ -11,7 +11,7 @@ const RightBanner = () => {
         src={bgImage} 
         alt="bannerImg"
       />
-      <div className="flex  justify-center mx-auto items-center  ">
+      <div className="flex  justify-center mx-auto items-center">
             <a href={resume} target='_blank' download className="my-8 text-base lg:text-3xl text-resumetext font-bold font-titleFont border-b-[2px] border-b-resumetext" >Download Resume</a> 
         </div>
     </div>
