@@ -28,17 +28,17 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/Mesafin",
     },
-    {
-      id: 3,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "new_resume.pdf",
-      style: "rounded-br-md",
-      download: true,
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Resume <BsFillPersonLinesFill size={30} />
+    //     </>
+    //   ),
+    //   href: "new_resume.pdf",
+    //   style: "rounded-br-md",
+    //   download: true,
+    // },
     {
       id: 4,
       child: (

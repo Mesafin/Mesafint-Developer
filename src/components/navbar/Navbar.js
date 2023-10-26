@@ -7,7 +7,7 @@ import { FiPhone, FiMail } from "react-icons/fi";
 import { cropped } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import { logo } from "../../assets/index";
-import resume from "../../assets/resume/new_resume.pdf";
+// import resume from "../../assets/resume/new_resume.pdf";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
         />
       </div>
       <div>
-        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-4">
+        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-20 pr-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -41,11 +41,11 @@ const Navbar = () => {
             </li>
           ))}
 
-          <li className="w-full p-2 bg-designColor rounded-lg text-base text-gray-200 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+          {/* <li className="w-full p-2 bg-designColor rounded-lg text-base text-gray-200 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
             <a href={resume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
@@ -85,11 +85,11 @@ const Navbar = () => {
                   </li>
                 ))}
 
-                <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
+                {/* <li className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300">
                   <a href={resume} target="_blank" rel="noopener noreferrer">
                     Resume
                   </a>
-                </li>
+                </li> */}
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
