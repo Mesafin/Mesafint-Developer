@@ -17,6 +17,8 @@ import bgImage from "./images/bg-images/about-bg.png"
 import cropped from "./images/cropped.png"
 import logo from "./images/mesafint-nameslook.jpg"
 import video from "./images/smoke.mp4"
+import jacomeImg from "./images/digital-id.jpg"
+import roofing from "./images/roofing.jpg"
 
 export {
   logo,
@@ -37,5 +39,7 @@ export {
   testimonialThree,
   quote,
   contactImg,
-  video
+  video,
+  jacomeImg,
+  roofing,
 };
