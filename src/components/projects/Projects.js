@@ -21,14 +21,6 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="Resturant-landing-page"
-          des="Recreate my restaurant's landing page design, originally created in Figma, using CSS, HTML, and React. Showcase my expertise in front-end development, responsive web design, and implementation of Figma designs. Skills utilized: tailwindCSS, React⚛️ Figma🖌️"
-          src={projectSeven}
-          linkGit="https://github.com/Mesafin/Habesha-Bar"
-          linkDeployed="https://stunning-cat-f342e9.netlify.app/"
-        />
-
-        <ProjectsCard
           title="JACOME - Tech Solution"
           des="Lead developer for JACOME Innovation Solutions' corporate website, showcasing our passion for technology-driven solutions. Utilized NEXTJS, NodeJs and ExpressJs  to create a responsive and visually appealing platform. Explore our commitment to digital transformation at jacome.org."
           src={jacomeImg}
@@ -42,6 +34,13 @@ const Projects = () => {
           src={roofing}
           linkGit="#"
           linkDeployed="https://ericaroofing.com"
+        />
+        <ProjectsCard
+          title="Resturant-landing-page"
+          des="Recreate my restaurant's landing page design, originally created in Figma, using CSS, HTML, and React. Showcase my expertise in front-end development, responsive web design, and implementation of Figma designs. Skills utilized: tailwindCSS, React⚛️ Figma🖌️"
+          src={projectSeven}
+          linkGit="https://github.com/Mesafin/Habesha-Bar"
+          linkDeployed="https://stunning-cat-f342e9.netlify.app/"
         />
         <ProjectsCard
           title="Apple Page Clone"
