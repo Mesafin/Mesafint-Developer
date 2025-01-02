@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiPhone } from "react-icons/fi";
+// import { FiPhone } from "react-icons/fi";
 
 const LeftBanner = () => {
     

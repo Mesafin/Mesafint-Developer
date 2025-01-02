@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import { FaReact, FaBootstrap, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { Link } from "react-scroll";
 import { navLinksdata } from '../../constants/index.js';

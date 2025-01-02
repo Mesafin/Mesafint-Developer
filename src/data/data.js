@@ -1,10 +1,10 @@
-import { SiJavascript, SiReact, SiHtml5, SiCss3, SiNodeDotJs } from 'react-icons/si';
-import { AiOutlineMobile, AiOutlineTablet, AiOutlineDesktop } from 'react-icons/ai';
-import { SiGoogleanalytics, SiSeo } from 'react-icons/si';
-import { AiOutlineCode, FaRegFileCode, FaCode } from 'react-icons/ai';
-import { AiOutlineLayout, FaPalette } from 'react-icons/ai';
-import { SiNetlify, SiHeroku, FaServer, FaCloud } from 'react-icons/si';
+// import { SiJavascript, SiReact, SiHtml5, SiCss3, SiNodeDotJs } from 'react-icons/si';
+// import { AiOutlineMobile, AiOutlineTablet, SiSeo, AiOutlineDesktop } from 'react-icons/ai';
+// import { AiOutlineLayout, FaPalette } from 'react-icons/ai';
+// import { SiNetlify, SiHeroku, FaServer, FaCloud } from 'react-icons/si';
 
+import { SiGoogleanalytics, SiJavascript,  SiNetlify } from 'react-icons/si';
+import { AiOutlineCode, AiOutlineLayout, AiOutlineMobile } from 'react-icons/ai';
 
 export const featuresData = [
   {

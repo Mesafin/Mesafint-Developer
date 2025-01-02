@@ -97,7 +97,7 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <a href="https://github.com/Mesafin" target="_blank">
+                    <a href="https://github.com/Mesafin" target="_blank" rel="noreferrer" >
                       <FaGithub />
                     </a>
                   </span>
@@ -115,6 +115,7 @@ const Navbar = () => {
                         class="badge-base__link LI-simple-link"
                         href="https://et.linkedin.com/in/mesafint-minwagaw23?trk=profile-badge"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <FaLinkedinIn />
                       </a>

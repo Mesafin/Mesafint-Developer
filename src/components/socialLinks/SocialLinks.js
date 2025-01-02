@@ -1,10 +1,10 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-scroll";
-import { navLinksdata } from '../../constants/index.js';
+// import { HiOutlineMail } from "react-icons/hi";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { Link } from "react-scroll";
+// import { navLinksdata } from '../../constants/index.js';
 
 
 const SocialLinks = () => {
