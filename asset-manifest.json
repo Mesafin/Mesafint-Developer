@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mesafint.tech/static/css/main.9b58ed01.css",
-    "main.js": "/Mesafint.tech/static/js/main.077b44b0.js",
+    "main.css": "/Mesafint.tech/static/css/main.7a5e56ed.css",
+    "main.js": "/Mesafint.tech/static/js/main.11d0c826.js",
     "static/media/smoke.mp4": "/Mesafint.tech/static/media/smoke.19ccac52415a702bff98.mp4",
     "static/media/bg5.jpg": "/Mesafint.tech/static/media/bg5.37f9618ac10afa3bfcdd.jpg",
     "static/media/about-bg.png": "/Mesafint.tech/static/media/about-bg.2374bbab20dcdef2ae67.png",
@@ -21,11 +21,11 @@
     "static/media/roofing.jpg": "/Mesafint.tech/static/media/roofing.1e7c7f05135e91e820a9.jpg",
     "static/media/digital-id.jpg": "/Mesafint.tech/static/media/digital-id.aa5d372160ccc0c74a18.jpg",
     "index.html": "/Mesafint.tech/index.html",
-    "main.9b58ed01.css.map": "/Mesafint.tech/static/css/main.9b58ed01.css.map",
-    "main.077b44b0.js.map": "/Mesafint.tech/static/js/main.077b44b0.js.map"
+    "main.7a5e56ed.css.map": "/Mesafint.tech/static/css/main.7a5e56ed.css.map",
+    "main.11d0c826.js.map": "/Mesafint.tech/static/js/main.11d0c826.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b58ed01.css",
-    "static/js/main.077b44b0.js"
+    "static/css/main.7a5e56ed.css",
+    "static/js/main.11d0c826.js"
   ]
 }
